@@ -1,0 +1,18 @@
+hgb val {'logloss': 0.2759, 'auc': 0.9291, 'acc': 87.6555, 'f1': 0.7252, 'prec': 0.7813, 'rec': 0.6767}
+hgb test {'logloss': 0.2793, 'auc': 0.9258, 'acc': 87.2551, 'f1': 0.7071, 'prec': 0.7734, 'rec': 0.6513}
+test {'config': 'base', 'seed': 0, 'best_epoch': 25, 'features': 88, 'logloss': 0.3108, 'auc': 0.9097, 'acc': 85.5906, 'f1': 0.6613, 'prec': 0.7435, 'rec': 0.5954}
+test {'config': 'base', 'seed': 1, 'best_epoch': 28, 'features': 88, 'logloss': 0.312, 'auc': 0.9092, 'acc': 85.5967, 'f1': 0.6704, 'prec': 0.7296, 'rec': 0.6201}
+test {'config': 'base', 'seed': 2, 'best_epoch': 23, 'features': 88, 'logloss': 0.3122, 'auc': 0.9091, 'acc': 85.738, 'f1': 0.6764, 'prec': 0.7288, 'rec': 0.631}
+test {'config': 'base', 'seed': 3, 'best_epoch': 22, 'features': 88, 'logloss': 0.313, 'auc': 0.9091, 'acc': 85.6336, 'f1': 0.6784, 'prec': 0.7199, 'rec': 0.6414}
+test {'config': 'base', 'seed': 4, 'best_epoch': 39, 'features': 88, 'logloss': 0.3133, 'auc': 0.9084, 'acc': 85.5599, 'f1': 0.674, 'prec': 0.7221, 'rec': 0.6318}
+test {'config': 'bins+low_dropout+unknown+logits+sched', 'seed': 0, 'best_epoch': 4, 'features': 132, 'logloss': 0.298, 'auc': 0.9153, 'acc': 86.1802, 'f1': 0.6872, 'prec': 0.7385, 'rec': 0.6425}
+test {'config': 'bins+low_dropout+unknown+logits+sched', 'seed': 1, 'best_epoch': 4, 'features': 132, 'logloss': 0.2974, 'auc': 0.9155, 'acc': 85.9468, 'f1': 0.6833, 'prec': 0.7306, 'rec': 0.6417}
+test {'config': 'bins+low_dropout+unknown+logits+sched', 'seed': 2, 'best_epoch': 5, 'features': 132, 'logloss': 0.2957, 'auc': 0.9162, 'acc': 86.3276, 'f1': 0.6798, 'prec': 0.7608, 'rec': 0.6144}
+test {'config': 'bins+low_dropout+unknown+logits+sched', 'seed': 3, 'best_epoch': 4, 'features': 132, 'logloss': 0.2961, 'auc': 0.9171, 'acc': 86.2293, 'f1': 0.6856, 'prec': 0.7442, 'rec': 0.6355}
+test {'config': 'bins+low_dropout+unknown+logits+sched', 'seed': 4, 'best_epoch': 3, 'features': 132, 'logloss': 0.2959, 'auc': 0.9168, 'acc': 85.9345, 'f1': 0.6833, 'prec': 0.7299, 'rec': 0.6422}
+
+SUMMARY TEST
+                                       features  best_ep  logloss     auc  auc_sd      acc  acc_sd      f1    prec     rec
+config                                                                                                                    
+base                                         88     27.4   0.3123  0.9091  0.0005  85.6237  0.0690  0.6721  0.7288  0.6240
+bins+low_dropout+unknown+logits+sched       132      4.0   0.2966  0.9162  0.0008  86.1237  0.1754  0.6838  0.7408  0.6353
